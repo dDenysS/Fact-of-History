@@ -1,0 +1,60 @@
+@import "src/styles/utils/variables";
+
+.quotes {
+  background: url("../img/main.jpg") no-repeat;
+  min-height: 820px;
+  width: 100%;
+  background-size: cover;
+  padding-top: 150px;
+
+  @media (max-width: $desktop-width) {
+    min-height: 475px;
+  }
+}
+
+.quotes__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+  }
+}
+
+.quotes__blockquote {
+  width: 38%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 18px 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  font-size: 18px;
+
+  @media (max-width: $desktop-width) {
+    width: 80%;
+  }
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+  }
+
+  p {
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+  cite {
+    margin-left: auto;
+  }
+}
+
+.quotes__social {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: row;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,44 @@
+@import "src/styles/utils/variables";
+
+.info {
+  padding: 40px 0 20px;
+  background: rgba(80, 80, 83, 0.33) url("../img/world-map.png");
+  //background-image: url("../img/world-map.png");
+}
+
+.info__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $desktop-width) {
+    flex-direction: column;
+  }
+}
+
+.info__why {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.56);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $desktop-width) {
+    width: 100%;
+  }
+}
+
+.info__tasks {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.56);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  @media (max-width: $desktop-width) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+@import "src/styles/utils/variables";
+
+.map {
+  padding: 40px 0 20px;
+}
+
+.map__pins {
+  position: relative;
+}
+
+.map__pin {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #505053;
+  border-radius: 50%;
+}
+
+.map__pin--1 {
+  top: 234px;
+  left: 641px;
+}
+
+.map__pin--2 {
+  top: 200px;
+  left: 600px;
+}
+
+.map__pin--3 {
+  top: 150px;
+  left: 190px;
+}
+
+.map__pin--4 {
+  top: 661px;
+  left: 269px;
+}
+
+.map__pin--5 {
+  top: 380px;
+  left: 748px;
+}
+
+.map__pin--6 {
+  top: 131px;
+  left: 917px;
+}
+
+.map__pin--active {
+  width: 20px;
+  height: 20px;
+  background-color: $red;
+
+  &::after {
+    content: "Вы";
+    position: absolute;
+    top: 2px;
+    left: 24px;
+    color: white;
+  }
+}

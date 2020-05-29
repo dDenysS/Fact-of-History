@@ -2,12 +2,12 @@ extends common/layout
 
 block content
   main.main
-    h2 1ddw
-    include includes/index/banner
-    hr
-    p='sad'
-    ul.items
-      li.items__t
-      li.items__t
-      li.items1__t
-    //- и другие блоки
+    section.pages
+      .pages__wrapper.container
+        a(href="main.html") Главная
+        a(href="documents.html") Документы
+        a(href="#") Карта
+        a(href="#") Видео
+        a(href="#") Публикации
+        a(href="#") Сравнительная хронология
+

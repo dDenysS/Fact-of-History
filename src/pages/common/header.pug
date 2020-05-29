@@ -1,2 +1,15 @@
-header
-  p Header
+header.header
+  .header__wrapper.container
+    a.header__logo.logo
+      img(src="../img/logo.svg" width="70" height="60" alt="Т-34")
+      img.logo__text(src="../img/logo-text-with-star.svg" width="95" height="40" alt="Факт истории")
+
+    button.header__menu-button
+
+    nav.header__nav.main-nav.main-nav--closed
+      a.link.link--active(href="#") Главная
+      a.link(href="#") Документы
+      a.link(href="#") Карта
+      a.link(href="#") Видео
+      a.link(href="#") Публикации
+      a.link(href="#") Сравнительная хронология

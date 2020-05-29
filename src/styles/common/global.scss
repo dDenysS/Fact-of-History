@@ -3,21 +3,34 @@
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+//body {
+//  margin: 0;
+//  font-family: $pt-mono;
+//  position: relative;
+//  display: flex;
+//  flex-direction: column;
+//}
+
 body {
-    margin: 0;
+  margin: 0;
+  min-width: $mobile-width;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

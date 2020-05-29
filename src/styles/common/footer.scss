@@ -1,5 +1,51 @@
 .footer {
-    border:
-        1px
-        solid red;
+  //background-color: $dark-grey-with-opacity;
+  background: rgb(48, 48, 49);
+  padding: 20px 0;
+  color: white;
+  margin-top: auto;
+
+  .social__item svg {
+    fill: white;
+  }
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+  }
+}
+
+.footer__logo {
+  //width: 30%;
+}
+
+.footer__social {
+  display: flex;
+
+  @media (max-width: $tablet-width) {
+    margin: 0 auto;
+  }
+}
+
+.footer__contacts {
+  p {
+    margin-bottom: 0;
+    max-width: 300px;
+
+    @media (max-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    margin: 0 auto;
+  }
+}
+
+.footer__link {
+  color: white;
 }

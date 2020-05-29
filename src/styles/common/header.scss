@@ -1,10 +1,42 @@
 @import "../mixins/media";
 
-header {
-    width: 220px;
-    background-color: red;
+.header {
+  width: 100%;
+  background-color: $dark-grey-with-opacity;
+  padding: 8px 0 18px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+}
 
-    @include media-tablet {
-        width: 500px;
-    }
+.header__wrapper {
+  display: flex;
+
+  @media (max-width: $desktop-width) {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.header__menu-button {
+  display: none;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  border: none;
+  background: url("../img/icon-hamburger.svg") no-repeat;
+
+  @media (max-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.header__nav {
+  width: 65%;
+  display: flex;
+
+  @media (max-width: $desktop-width) {
+    //display: none;
+    width: 100%;
+  }
 }

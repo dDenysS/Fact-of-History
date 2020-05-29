@@ -1,0 +1,12 @@
+.main-nav {
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.main-nav--closed {
+
+  @media (max-width: $desktop-width) {
+    display: none;
+  }
+}

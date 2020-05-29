@@ -1,0 +1,22 @@
+@import "src/styles/utils/variables";
+
+.team {
+  padding: 20px 0;
+  background-color: rgba(120, 120, 120, 0.2);
+  //box-shadow: 0 -24px 33px 10px rgba(120, 120, 120, 0.2);
+}
+
+.team__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  h3 {
+    text-align: center;
+  }
+}
+
+.team__list-item {
+  list-style: none;
+}

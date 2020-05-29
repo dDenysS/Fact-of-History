@@ -1,0 +1,13 @@
+<svg width="121" height="64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_17_blur">
+      <feGaussianBlur stdDeviation="4.9" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path fill="none" id="canvas_background" d="M-1-1h123v66H-1z"/>
+  <text stroke="#000" transform="matrix(1.06174 0 0 1 -15.694 0)" xml:space="preserve" text-anchor="start"
+        font-family="Helvetica, Arial, sans-serif" font-size="43" id="svg_1" y="32.453" x="15.299" stroke-width="0"
+        fill="#b31900">ФАКТ</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2"
+        y="62.453" x="2.5" stroke-width="0" stroke="#000" fill="#c82602">ИСТОРИИ</text>
+</svg>

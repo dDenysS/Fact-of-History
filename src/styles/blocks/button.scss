@@ -1,0 +1,18 @@
+.button {
+  padding: 7px 10px 9px;
+  background-color: $dark-grey-with-opacity;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: $pt-mono;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $red-dark;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}

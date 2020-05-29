@@ -1,5 +1,14 @@
-// Mobile first
-$mediaWidthMobile: 320px;
-$mediaWidthTablet: 768px;
-$mediaWidthTabletHorizontal: 1024px;
-$mediaWidthLaptop: 1366px;
+$mobile-width: 320px;
+$tablet-width: 767px;
+$desktop-width: 1023px;
+
+$desktop-wrapper: 1200px;
+
+$roboto-condensed: "Roboto Condensed", "Arial", sans-serif;
+$roboto: "Roboto", "Arial", sans-serif;
+$pt-mono: "PT Mono", "Consolas", monospace;
+
+$dark-grey: #424246;
+$dark-grey-with-opacity: rgba(66, 66, 70, 0.8);
+$red: #b31900;
+$red-dark: #6a1300;

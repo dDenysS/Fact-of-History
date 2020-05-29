@@ -1,0 +1,15 @@
+.pages {
+  padding-top: 100px;
+
+  a {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+}
+
+.pages__wrapper {
+  display: flex;
+  flex-direction: column;
+}

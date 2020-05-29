@@ -1,0 +1,31 @@
+@import "src/styles/utils/variables";
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  margin: 5px;
+  font-family: $pt-mono;
+}
+
+.link:hover {
+  color: $red;
+}
+
+.link:active {
+  opacity: 0.6;
+}
+
+.link--active {
+  border-bottom: 1px solid white;
+}
+
+.link--active:hover {
+  cursor: default;
+  color: white;
+}
+
+.link--black {
+  color: black;
+}

@@ -1,0 +1,7 @@
+@import "src/styles/utils/variables";
+
+.container {
+  max-width: $desktop-wrapper;
+  margin: 0 auto;
+  padding: 0 20px;
+}
