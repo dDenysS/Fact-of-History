@@ -1,7 +1,8 @@
 .footer {
   //background-color: $dark-grey-with-opacity;
-  background: rgb(48, 48, 49);
-  padding: 20px 0;
+  //background: rgb(48, 48, 49);
+  background: $footer;
+  padding: 5px 0;
   color: white;
   margin-top: auto;
 
@@ -48,4 +49,12 @@
 
 .footer__link {
   color: white;
+
+  &:hover {
+    color: $red;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
 }

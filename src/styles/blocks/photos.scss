@@ -1,0 +1,72 @@
+.photos {
+  padding: 20px 0;
+}
+
+.swiper-container {
+  //max-width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  background: #ffffff70;
+  padding: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 50px;
+  background: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 0;
+  background: url("../img/back.svg") no-repeat 50% 50%;
+}
+
+.swiper-button-next {
+  right: 0;
+  background: url("../img/next.svg") no-repeat 50% 50%;
+}
+
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: translateY(-50%) scale(1.2, 1.2);
+}
+
+.swiper-button-next:active,
+.swiper-button-prev:active {
+  opacity: 0.7;
+}
