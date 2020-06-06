@@ -35,6 +35,7 @@
   padding-right: 90px;
   position: relative;
   cursor: pointer;
+  font-weight: bold;
 
   &:hover {
     border-color: $red;
@@ -49,7 +50,7 @@
     right: 17px;
     width: 30px;
     height: 30px;
-    background: url("../../img/down-arrow.svg") no-repeat 50% 50%;
+    background: url("../img/down-arrow.svg") no-repeat 50% 50%;
     //transform: rotate(180deg);
   }
 }
@@ -60,6 +61,8 @@
 }
 
 .closed-question {
+  font-weight: normal;
+
   &::after {
     transform: translateY(-50%);
   }
